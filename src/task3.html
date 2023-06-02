@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+<div style="padding-top:1%">
+    <select name="dep" id="depType" onchange="fillCombobox()">
+        <option value="0" disabled selected>Вид вклада</option>
+        <option value="1">Пополняемый</option>
+        <option value="2">Срочный</option>
+    </select>
+</div>
+
+<div style="padding-top:1%">
+    <select name="term" id="termType" >
+    <option value="0" disabled selected>Срок вклада</option>
+    </select> 
+</div>
+
+<p style="padding-top:1%"><input name="depAmount" placeholder="Сумма, руб." size="18" /></p>
+
+<button class="favorite styled" type="button" id = "submit" onclick="Calc();">Рассчитать</button> 
+
+<div class="Calc" style="font-size:14pt; padding-top:25px;"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
