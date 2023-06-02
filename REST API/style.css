@@ -1,0 +1,87 @@
+h1{
+    padding-left: 10%;
+}
+
+#main{
+    padding-left: 10%;
+    height: 60px;
+    width: 90%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+#div-input{
+    width:70%;
+    display: inline-block;
+}
+
+#div-button{
+    margin-left: 40px;
+    width:10%;
+    display: inline-block;
+}
+
+input{
+    padding-left: 20px;
+    height: 44px;
+    width: 100%;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(67, 67, 67);
+    font-size: 20px;
+}
+
+button{
+    height: 50px;
+    width: 75%;
+    background-color:rgb(221, 185, 27);
+    border-width: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#vacancies{
+    width: 90%;
+    padding-top: 30px;
+    padding-left: 10%;
+
+    display: block;
+    position: relative;
+    align-items: center;
+}
+.inner{
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(34, 32, 32);
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.text{
+    width: 70%;
+    display: block;
+    color: rgb(73, 70, 70);
+}
+
+.button{
+    width: 30%;
+}
+
+.link{
+    width: 80%;
+    font-size: 18px;
+}
